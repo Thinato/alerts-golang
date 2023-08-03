@@ -1,0 +1,10 @@
+
+nome de arquivo e pastas --> tudo snake_case
+
+nome de package --> Na documentação do go ele recomendo Abreviação: 
+    - NÃO USAR!
+    - snake_case
+
+
+letra maiuscula --> publico
+letra minuscula --> privado
