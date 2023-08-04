@@ -6,5 +6,5 @@ nome de package --> Na documentação do go ele recomendo Abreviação:
     - snake_case
 
 
-letra maiuscula --> publico
-letra minuscula --> privado
+primeira letra maiuscula --> publico
+primeira letra minuscula --> privado
