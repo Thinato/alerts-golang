@@ -19,10 +19,10 @@ func (usecase *FindAlertsUsecase) Run(input FindAlertUseCaseInputDto) ([]alert_e
 	}
 
 	for i := 0; i < len(repoAlerts); i++ {
-		res[i] = alert_entity.Alert{
+		res = append(res, alert_entity.Alert{
 			Id:        repoAlerts[i].Id,
 			VehicleId: repoAlerts[i].VehicleId,
-		}
+		})
 	}
 
 	return res, nil
